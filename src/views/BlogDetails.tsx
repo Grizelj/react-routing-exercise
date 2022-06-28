@@ -1,7 +1,9 @@
+import { Outlet } from 'react-router-dom';
+
 export const BlogDetails: React.FC = () => {
   return (
     <div>
-      <p>TODO</p>
+      <Outlet />
     </div>
   );
 };
